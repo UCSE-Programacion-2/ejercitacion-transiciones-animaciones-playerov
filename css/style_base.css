@@ -134,10 +134,6 @@ nav ul li a:hover::before{
     animation: girar 1s linear infinite;
  }
  @keyframes girar{
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg); }
  }
